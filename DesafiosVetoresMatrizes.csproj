@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Target a recent .NET version. Adjust as needed. -->
+    <TargetFramework>net7.0</TargetFramework>
+    <!-- Enable nullable reference types to encourage safe handling of nulls. -->
+    <Nullable>enable</Nullable>
+    <!-- Implicit usings bring common namespaces into scope automatically. -->
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- Produce XML documentation. Useful if the project is consumed by others. -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Include all C# source files in this directory and subdirectories. -->
+    <Compile Include="**/*.cs" />
+  </ItemGroup>
+
+</Project>
